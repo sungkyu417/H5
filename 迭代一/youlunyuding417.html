@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>南京出发</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="../css/calendar2.css" rel="stylesheet" type="text/css">
+<script src="../js/jquery-1.10.2.js"></script>
+<script src="../js/rem.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/calendar.js"></script>
+<script src="../js/fun.js"></script>
+<script>
+window.onload=function() {
+  var OJia = document.getElementsByClassName('button-add');
+  var Odecrease = document.getElementsByClassName('button-decrease');
+  var ONum = document.getElementsByClassName('num');
+  var count= 1;
+  var len=OJia.length;
+  for(var i=0;i<len;i++){
+	   OJia[i].index=i;
+
+	   OJia[i].onclick = function () {
+	   count=ONum[this.index].innerHTML;
+	   if(count>=0){
+	   	 count++;
+	   	 ONum[this.index].innerHTML=count;
+	   	 ONum[this.index].style.color="#5cb531";
+	   }
+	   
+	  }
+	   
+	   Odecrease[i].index=i;
+	   Odecrease[i].onclick = function (){
+	   	count=ONum[this.index].innerHTML;
+	   	if(count>0){
+	   	 count--;
+	   	 ONum[this.index].innerHTML=count;
+	   	 if(count==0){
+	   	ONum[this.index].style.color="#989898";
+	   }else{
+	   	ONum[this.index].style.color="#5cb531";
+	   }
+	   }
+	  
+	}
+}
+}
+
+$(function(){
+	$('.chkbtn').click(function(){
+	$('.chk').toggle();})
+});
+</script>
+</head>
+<body>
+	<div class="preordain-whloe youlunyuding">
+		<div class="preordaintop">
+			<div class="calendar">
+				<div class="outer clearfix" id="calendarcontainer">
+				</div>
+			</div>
+		</div>
+		<div class="youlunChoose">
+			<p>选择舱型</p>
+			<table>
+				<tr><td><button>内舱双人房</button></td><td><button>内舱三人间</button></td></tr>
+				<tr><td><button>内舱四人房</button></td><td><button>海景双人房</button></td></tr>
+				<tr><td><button>海景三人间</button></td><td><button>海景四人间</button></td></tr>
+				<tr><td><button>阳台双人房</button></td><td><button>阳台三人间</button></td></tr>
+				<tr><td><button>高级套房</button></td><td><button>家庭套房三人间</button></td></tr>
+			</table>
+		</div>
+		<div class="preordaincontent">
+	    <table>
+	    	<tr>
+	    		<td>成人</td>
+	    		<td class="premoney"><span class="comoney">¥500</span>&nbsp;/人</td>
+	    		<td class="precount">
+	    			<ul>
+						<li class="jian"><a href="javascript:;" class="button-decrease">-</a></li>
+						<li class="num">1</li>
+						<li class="jia"><a href="javascript:;" class="button-add">+</a></li>
+					</ul>
+	    		</td>
+	    	</tr>
+	    </table>
+		</div>
+		<div class="preordainbottom">
+			<div class="precontract">
+				<div class="precheckbox">
+					<div class="chkbtn">
+						<img class="chk" src="../img/chk.png">
+					</div>
+				</div>
+				<p>我已经阅读并同意<span style="color:#5cb531">《旅游合同》</span></p>
+			</div>
+			<div class="prenext">
+				<div class="prenextleft">
+					<p><span style="color:#989898">数量:</span>&nbsp;<span class="comoney">1</span>&nbsp;成人&nbsp;<span class="comoney">1</span>&nbsp;儿童</p>
+					<p><span style="color:#989898">团期:</span>&nbsp;2016-07-13</p>
+				</div>
+				<div class="prenextright">
+					<a>下一步&nbsp;&nbsp; 确认行程</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+//c:容器,y:年,m:月,a:出发时间json,f:是否显示双日历,fu:回调函数
+var para={'c':'calendarcontainer',
+         'y':2016,
+		 'm':07,
+		 'a':{
+			 'd1':'2016-8-30',//最早触发时间
+			 'd2':'2017-05-05'//最晚出发时间
+			 },
+		 'f':0,//显示双日历用1，单日历用0
+		 'fu':function (t) {//回调函数，点击日期是调用的函数,参数t为点击的日期对象，可以把用户选定的日期通过此函数存入服务端或cookies，具体请自行编写
+                console.log(t.id);   	 
+			 }		 
+		 }
+		 
+new  CreateCalendar(para.c,para.y,para.m,para.a,para.f,para.fu); 
+</script>
+<script>
+	$(document).ready(function(){
+		setInterval(function(){
+	  $(".cur").parent().prevAll().find("td").css("color","#c2c2c2");//当前日期行的之前行多有日期变成灰色
+  	$(".cur").prevAll().css("color","#c2c2c2");//当前日期之前的同行日期颜色变成灰色
+  	
+  	//设置今天，明天，后天文本
+  	var today=$(".cur");
+  	var tomorrow=$(".cur").next();
+  	var afterTomorrow=$(".cur").next().next();
+  	if(today.attr("week")==5){ //如果当前日期是星期五，后天在下一行，特别选择
+  		afterTomorrow=today.parent().next().children().first();  
+  	}
+  	if(today.attr("week")==6){	//如果当前日期在星期六同样需要特别选择明后两天
+  		tomorrow=today.parent().next().children().first();
+  		afterTomorrow=today.parent().next().children().first().next();
+  	}
+  	today.text("今天");
+  	tomorrow.text("明天");
+  	afterTomorrow.text("后天");
+  	
+  	//判断当月月份，确定是否显示左边按钮
+		var time=new Date();//获取当前日期
+		var month=$(".dates em:last-child").text();//获取头部日期
+		if(month==time.getMonth()+1){
+			$(".prevMonth").css("visibility","hidden");//当前月日期和头部日期比较，若为同一个月，则隐藏左边按钮
+		}
+		},50);
+  	
+	});
+</script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>现金账户</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+		<script>
+			$(document).ready(function(){
+  				$(".fanxian").click(function(){
+  					$(this).css({"background-color":"#5cb531","color":"white"});
+  					$(".tx-content").hide();
+    				$(".fx-content").show();
+    				$(".tixian").css({"background-color":"white","color":"#5cb531"});
+    				
+  				});
+  				$(".tixian").click(function(){
+  					$(this).css({"background-color":"#5cb531","color":"white"});
+    				$(".fx-content").hide();
+    				$(".tx-content").show();
+    				$(".fanxian").css({"background-color":"white","color":"#5cb531"});
+
+  				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="cashAccountWhole">
+			<div class="ca-header">
+				<div class="cash-available">
+					<span>可提现金额（元）</span><button>提现</button>
+				</div>
+				<p class="num">¥400.0</p>
+				<p>提现说明：Ut luctus velit egestas purus feugiat, sit ametsodales ligula interdum. Praesent ut egestas ante. Na-m non felis quam. </p>
+			</div>
+			<div class="ca-button">
+				<button><span class="fanxian select">返现记录</span><span class="tixian">提现记录</span></button>
+			</div>
+			<div class="ca-content fx-content">
+				<div class="content-item">
+					<p>被推荐人<span>&nbsp;吕毅&nbsp;</span>成功消费<span>&nbsp;¥22000</span><span class="time">2016-07-25</span></p>
+					<p>已发放佣金&nbsp;<span class="yongjin">¥200</span></p>
+				</div>
+				<div class="content-item">
+					<p>被推荐人<span>&nbsp;王一&nbsp;</span>成功消费<span>&nbsp;¥3400</span><span class="time">2016-07-22</span></p>
+					<p>已发放佣金&nbsp;<span class="yongjin">¥50</span></p>
+				</div>
+				<div class="content-item">
+					<p>被推荐人<span>&nbsp;张森&nbsp;</span>成功消费<span>&nbsp;¥22000</span><span class="time">2016-07-20</span></p>
+					<p>已发放佣金&nbsp;<span class="yongjin">¥200</span></p>
+				</div>
+				<div class="content-item">
+					<p>被推荐人<span>&nbsp;王玲&nbsp;</span>成功消费<span>&nbsp;¥500</span><span class="time">2016-07-10</span></p>
+					<p>已发放佣金&nbsp;<span class="yongjin">¥20</span></p>
+				</div>
+			</div>
+			<div class="ca-content tx-content" style="display: none;">
+				<div class="content-item">
+					<p>提现成功！<span class="time">2016-07-10</span></p>
+					<p>余额&nbsp;¥20<span style="float: right;color: black;">-¥2300</span></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

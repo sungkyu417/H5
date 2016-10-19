@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>积分商城</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style3.css">		
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+		<style>
+			.active{
+				color: #5cb531;
+				border-bottom: 0.03rem solid #5cb531;
+			}
+		</style>
+		<script>
+			$(document).ready(function(){
+				$(".selectBar li").click(function(){
+					$(this).addClass("active");
+					$(this).siblings().removeClass("active");
+					var id=$(this).attr("id");
+					id='#'+id+'1';
+					$(id).siblings().hide();
+					$(id).show();
+					
+					
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="jfscWhole">
+			<div class="search">
+				<img src="../img/search.png" />
+				<input type="text" placeholder="搜索商品" />
+			</div>
+			<div class="advertiseImg">
+				<img src="../img/aroundbanner.png" />
+			</div>
+			<div class="selectBar">
+				<ul>
+					<li id="select1" class="active"><a class="first">精品兑换</a></li>
+					<li id="select2"><a>新品速递</a></li>
+					<li id="select3"><a>秒杀商品</a></li>
+					<li id="select4"><a>清仓商品</a></li>
+				</ul>
+			</div>
+			<div class="selectBody">
+				<div id="select11">
+					<div class="product">
+						<img src="../img/xcthree.png" />
+						<div class="product-Info">
+						<p class="p1">红葡萄酒红葡萄酒红葡萄酒红葡萄酒红葡萄酒</p>
+						<p class="p2">会员价：<span>￥</span><span>500</span><span>+</span><span>265</span><span>积分</span></p>
+						<p class="p3">门市价：&nbsp;&nbsp;￥<span>69</span></p>
+						<p class="p4"><span class="span1">中国大陆包邮</span><span class="span2">销量：<span>4690</span></span></p>
+						</div>
+					</div>
+					<div class="product">
+						<img src="../img/xcthree.png" />
+						<div class="product-Info">
+						<p class="p1">红葡萄酒红葡萄酒红葡萄酒红葡萄酒红葡萄酒</p>
+						<p class="p2">会员价：<span>￥</span><span>500</span><span>+</span><span>265</span><span>积分</span></p>
+						<p class="p3">门市价：&nbsp;&nbsp;￥<span>69</span></p>
+						<p class="p4"><span class="span1">中国大陆包邮</span><span class="span2">销量：<span>4690</span></span></p>
+						</div>
+					</div>
+					<div class="product">
+						<img src="../img/xcthree.png" />
+						<div class="product-Info">
+						<p class="p1">红葡萄酒红葡萄酒红葡萄酒红葡萄酒红葡萄酒</p>
+						<p class="p2">会员价：<span>￥</span><span>500</span><span>+</span><span>265</span><span>积分</span></p>
+						<p class="p3">门市价：&nbsp;&nbsp;￥<span>69</span></p>
+						<p class="p4"><span class="span1">中国大陆包邮</span><span class="span2">销量：<span>4690</span></span></p>
+						</div>
+					</div>
+					
+					
+				</div>
+				<div id="select21" style="display: none;">
+					<div class="product">
+						<img src="../img/xcthree.png" />
+						<div class="product-Info">
+						<p class="p1">红葡萄酒红葡萄酒红葡萄酒红葡萄酒红葡萄酒</p>
+						<p class="p2">会员价：<span>￥</span><span>500</span><span>+</span><span>265</span><span>积分</span></p>
+						<p class="p3">门市价：&nbsp;&nbsp;￥<span>69</span></p>
+						<p class="p4"><span class="span1">中国大陆包邮</span><span class="span2">销量：<span>4690</span></span></p>
+						</div>
+					</div>
+					<div class="product">
+						<img src="../img/xcthree.png" />
+						<div class="product-Info">
+						<p class="p1">红葡萄酒红葡萄酒红葡萄酒红葡萄酒红葡萄酒</p>
+						<p class="p2">会员价：<span>￥</span><span>500</span><span>+</span><span>265</span><span>积分</span></p>
+						<p class="p3">门市价：&nbsp;&nbsp;￥<span>69</span></p>
+						<p class="p4"><span class="span1">中国大陆包邮</span><span class="span2">销量：<span>4690</span></span></p>
+						</div>
+					</div>
+					<div class="product">
+						<img src="../img/xcthree.png" />
+						<div class="product-Info">
+						<p class="p1">红葡萄酒红葡萄酒红葡萄酒红葡萄酒红葡萄酒</p>
+						<p class="p2">会员价：<span>￥</span><span>500</span><span>+</span><span>265</span><span>积分</span></p>
+						<p class="p3">门市价：&nbsp;&nbsp;￥<span>69</span></p>
+						<p class="p4"><span class="span1">中国大陆包邮</span><span class="span2">销量：<span>4690</span></span></p>
+						</div>
+					</div>
+				</div>
+				<div id="select31" style="display: none;">
+					<div class="product">
+						<img src="../img/xcthree.png" />
+						<div class="product-Info">
+						<p class="p1">红葡萄酒红葡萄酒红葡萄酒红葡萄酒红葡萄酒</p>
+						<p class="p2">会员价：<span>￥</span><span>500</span><span>+</span><span>265</span><span>积分</span></p>
+						<p class="p3">门市价：&nbsp;&nbsp;￥<span>69</span></p>
+						<p class="p4"><span class="span1">中国大陆包邮</span><span class="span2">销量：<span>4690</span></span></p>
+						</div>
+					</div>
+					<div class="product">
+						<img src="../img/xcthree.png" />
+						<div class="product-Info">
+						<p class="p1">红葡萄酒红葡萄酒红葡萄酒红葡萄酒红葡萄酒</p>
+						<p class="p2">会员价：<span>￥</span><span>500</span><span>+</span><span>265</span><span>积分</span></p>
+						<p class="p3">门市价：&nbsp;&nbsp;￥<span>69</span></p>
+						<p class="p4"><span class="span1">中国大陆包邮</span><span class="span2">销量：<span>4690</span></span></p>
+						</div>
+					</div>
+				</div>
+				<div id="select41" style="display: none;">
+					<div class="product">
+						<img src="../img/xcthree.png" />
+						<div class="product-Info">
+						<p class="p1">红葡萄酒红葡萄酒红葡萄酒红葡萄酒红葡萄酒</p>
+						<p class="p2">会员价：<span>￥</span><span>500</span><span>+</span><span>265</span><span>积分</span></p>
+						<p class="p3">门市价：&nbsp;&nbsp;￥<span>69</span></p>
+						<p class="p4"><span class="span1">中国大陆包邮</span><span class="span2">销量：<span>4690</span></span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

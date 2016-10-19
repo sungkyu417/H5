@@ -1,0 +1,705 @@
+/*积分商城*/
+.jfscWhole,.product-assess,.jiudianWhole,.jdxqWhole{
+	background-color: #F3F3F3;
+	width:100%;
+	height:100%;
+	font-size:0.12rem;
+	font-family: "微软雅黑";
+	overflow:scroll;
+}
+.jfscWhole .search{
+	height: 0.37rem;
+	padding: 0.05rem 0.1rem;
+	position: relative;
+}
+.jfscWhole .search input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 0.1rem;
+	padding-left: 0.3rem;
+	color: #616161;
+	padding-bottom: 0.01rem;
+}
+.jfscWhole .search img{
+	position: absolute;
+	height: 0.12rem;
+	width: 0.12rem;
+	left: 0.23rem;
+	top: 0.12rem;
+}
+.jfscWhole .advertiseImg{
+	height: 1.5rem;
+	width: 100%;
+}
+.advertiseImg img{
+	width: 100%;
+	height: 100%;
+}
+.selectBar{
+	background-color: white;
+	width: 100%;
+	height: 0.44rem;
+}
+.selectBar ul{
+	width: 100%;
+	
+}
+.selectBar ul li{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	/*border-left: 1px solid #c3c3c3;*/
+	padding-top: 0.14rem;
+	padding-bottom: 0.14rem;
+}
+.selectBar ul a{
+	display: inline-block;
+	border-left: 1px solid #c3c3c3;
+	text-align: center;
+	width: 100%;
+}
+.selectBar .first{
+	border-left: none;
+}
+.jfscWhole .selectBody{
+	background-color: white;
+	height: 100%;
+}
+.jfscWhole #select11,.jfscWhole #select21,.jfscWhole #select31,.jfscWhole #select41{
+	margin-top: 0.03rem;
+}
+
+.jfscWhole .product{
+	height: 1.08rem;
+	width: 100%;
+	position: relative;
+	padding-top: 0.04rem;
+}
+.jfscWhole .product img{
+	position: absolute;
+	height: 1rem;
+	width: 1rem;
+	left: 0.1rem;
+	top: 0.1rem;
+}
+.product-Info{
+	margin-left: 1.15rem;
+	height: 100%;
+	border-bottom: 1px solid #E8E8E8;
+	padding-left: 0.06rem;
+	padding-right: 0.06rem;
+}
+.product-Info p{
+	margin-bottom: 0;
+	line-height: 1;
+}
+.product-Info .p1{
+	font-size: 0.14rem;
+	margin-top: 0.07rem;
+}
+.product-Info .p2{
+	margin-top: 0.15rem;
+}
+.product-Info .p2 span:nth-child(1){
+	font-size: 0.1rem;
+	color: #f9844b;
+}
+.product-Info .p2 span:nth-child(2){
+	font-size: 0.14rem;
+	font-weight: 700;
+	color: #f9844b;
+}
+.product-Info .p2 span:nth-child(3){
+	margin-right: 0.02rem;
+	margin-left: 0.02rem;
+	color: #858585;
+}
+.product-Info .p2 span:nth-child(4){
+	color: #f9844b;
+	margin-right: 0.02rem;
+}
+.product-Info .p2 span:nth-child(5){
+	color: #858585;
+	font-size: 0.11rem;
+}
+.product-Info .p3{
+	color: #858585;
+	text-decoration: line-through;
+	line-height: 2;
+}
+.product-Info .p4 .span1{
+	background-color: #5cb531;
+	color: white;
+	border-radius: 0.02rem;
+	padding-left: 0.02rem;
+	padding-right: 0.02rem;
+	
+}
+.product-Info .p4 .span2{
+	float: right;
+}
+/*积分商城商品详情*/
+.productDetailWhole{
+	background-color: white;
+	width:100%;
+	height:100%;
+	font-size:0.12rem;
+	font-family: "微软雅黑";
+	overflow:scroll;
+}
+.detail-img{
+	height: 1.6rem;
+	width: 100%;
+}
+.detail-img img{
+	height: 100%;
+	width: 100%;
+}
+.detail-info{
+	height: 1.12rem;
+	width: 100%;
+	padding: 0.1rem ;
+	border-bottom:0.07rem solid #F3F3F3 ;
+}
+.detail-info .p1{
+	font-size: 0.14rem;
+	margin-bottom: 0.1rem;
+}
+.detail-info .p2{
+	color: #858585;
+	margin-bottom: 0.03rem;
+}
+.detail-info .p2 span:first-child{
+	color: #f9844b;
+	font-size: 0.14rem;
+	font-weight: 700;
+	margin-right: 0.05rem;
+}
+.detail-info .p2 span:nth-child(2){
+	color: #f9844b;
+	margin-left: 0.05rem;
+	margin-right: 0.05rem;
+}
+.detail-info .p2 span:last-child{
+	font-size: 0.11rem;
+}
+.detail-info .p3{
+	color: #858585;
+	text-decoration: line-through;
+	margin-bottom: 0.03rem;
+}
+.detail-info .p4{
+	color: #858585;
+}
+.detail-info .p4 span:last-child{
+	float: right;
+}
+.detail-info .p4 span:first-child{
+	margin-right: 0.4rem;
+}
+.user-assess{
+	height: 0.59rem;
+	width: 100%;
+	border-bottom:0.07rem solid #F3F3F3 ;
+	font-size: 0.14rem;
+	padding: 0.17rem 0.17rem 0.17rem 0.12rem;
+}
+.user-assess img{
+	height: 0.15rem;
+	width: 0.08rem;
+	float: right;
+}
+.product-detail{
+	margin-top: 0.18rem;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+}
+.product-detail img{
+	width: 100%;
+	height: 9rem;
+}
+.product-detail p{
+	font-size: 0.14rem;
+	margin-bottom: 0.17rem;
+}
+.xl-footer {
+    width: 100%;
+}
+.xl-footer table {
+    width: 100%;
+    position: relative;
+}
+.sc-footer table {
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 0;
+    background-color: white;
+}
+.sc-footer .td1 {
+    background-color: white;
+    color: #5cb531;
+}
+.sc-footer td {
+    width: 50%;
+    height: 0.45rem;
+    text-align: center;
+}
+.xl-footer img {
+    height: 0.27rem;
+    width: 0.29rem;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.1rem;
+}
+.sc-footer .td2 {
+    background-color: #5cb531;
+    color: white;
+}
+.sc-footer td {
+    width: 50%;
+    height: 0.45rem;
+    text-align: center;
+}
+.assess-content{
+	height: 1.6rem;
+	margin-top: 0.11rem;
+	background-color: white;
+	width: 100%;
+}
+.assess-content textarea{
+	margin: 0.1rem;
+	height: 1rem;
+	width: 2.98rem;
+	border: none;
+	border-bottom: 1px solid #cccccc;
+}
+.assess-content p{
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	font-size: 0.13rem;
+}
+.assess-content p img{
+	height: 0.17rem;
+	width: 0.18rem;
+}
+.assess-content p .pics{
+	float: right;
+}
+.product-assess button{
+	height: 0.4rem;
+	margin: 0.1rem;
+	width: 2.98rem;
+	border: none;
+	background-color: #5CB531;
+	border-radius: 0.06rem;
+	color: white;
+	font-size: 0.15rem;
+}
+/*酒店*/
+.jiudianWhole .searchBar{
+	height: 0.36rem;
+	width: 2.98rem;
+	margin: 0.07rem 0.1rem;
+	background-color: white;
+	padding: 0.06rem 0.1rem;
+}
+.jiudianWhole .searchBar span{
+	display: inline-block;
+}
+.jiudianWhole .searchBar .first{
+	font-size: 0.14rem;
+	color: #5CB531;
+	width: 0.8rem;
+	padding-right:0.1rem ;
+	border-right: 1px solid #CCCCCC;
+	
+}
+.jiudianWhole .searchBar .arrow{
+	height: 0.06rem;
+	width: 0.1rem;
+	float: right;
+	margin-top: 0.08rem;
+}
+.jiudianWhole .searchBar .place{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0.56rem;
+}
+.jiudianWhole .searchBar .search{
+	height: 0.13rem;
+	width: 0.12rem;
+	margin-left: 0.1rem;
+	margin-right:0.12rem ;
+	margin-bottom: 0.05rem;
+}
+.jiudianWhole .searchBar input{
+	border: none;
+	width: 1.5rem;
+}
+.timeChoose{
+	height: 0.4rem;
+	background-color: white;
+	padding: 0.08rem 0.1rem;
+	margin-bottom: 0.03rem;
+}
+.timeChoose input{
+	height: 0.25rem;
+	width: 1.05rem;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.05rem;
+	background-color: #F3F3F3;
+	padding-left: 0.06rem;
+}
+.timeChoose input[type="date"]:before{
+    color:black;
+    content:attr(placeholder);
+}
+
+
+.timeChoose input[type="date"].full:before {
+    color:black;
+    content:""!important;
+}
+
+.timeChoose input:last-child{
+	float: right;
+}
+.timeChoose .line{
+	border-bottom: 1px solid #CCCCCC;
+	display: inline-block;
+	width: 0.15rem;
+	margin-left: 0.05rem;
+	margin-bottom: 0.05rem;
+}
+.jiudian-item{
+	width: 100%;
+	background-color: white;
+	margin-bottom: 0.05rem;
+	position: relative;
+}
+.jiudian-item img{
+	height: 1.25rem;
+	width: 100%;
+}
+.jiudian-item .tag{
+	position: absolute;
+	left: 0;
+	top: 0.8rem;
+	color: white;
+	width: 0.65rem;
+	height: 0.23rem;
+	background-color: black;
+	opacity: 0.5;
+	text-align: center;
+	padding-top: 0.03rem;
+}
+.jiudian-item .tag span{
+	opacity: 1;
+	font-size: 0.14rem;
+	font-weight: 600;
+}
+.jiudian-item .p1{
+	font-size: 0.14rem;
+	margin: 0.05rem;
+}
+.jiudian-item .p2{
+	line-height: 1.1;
+	margin-left: 0.05rem;
+	margin-right: 0.05rem;
+	padding-bottom: 0.05rem;
+	color: #858585;
+}
+/*酒店详情*/
+.selectPart{
+	height: 0.42rem;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 0.03rem;
+	
+}
+.selectPart ul{
+	width: 100%;
+	height: 100%;
+	padding-top: 0.13rem;
+	padding-bottom: 0.15rem;
+}
+.selectPart li{
+	display: inline-block;
+	
+	text-align: center;
+	width: 32%;
+	border-right: 1px solid #CCCCCC;
+}
+.selectPart li img{
+	height: 0.06rem;
+	width: 0.08rem;
+	margin-left: 0.09rem;
+}
+.selectPart li:last-child{
+	border: none;
+}
+.wztj-body{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+.wztj-body .p5{
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	height: 0.34rem;
+	padding: 0.1rem;
+	padding-top: 0.07rem;
+}
+.wztj-body .p5 .span1{
+	font-size: 0.14rem;
+}
+.wztj-body .p5 .span3{
+	float: right;
+}
+.wztj-body .p5 .span2{
+	color: #F9844B;
+}
+.wztj-item{
+	border-bottom: 1px solid #CCCCCC;
+	width: 100%;
+	height: 1.15rem;
+	position: relative;
+	padding-left: 1.15rem;
+	padding-top: 0.2rem;
+	padding-right: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+.wztj-item img{
+	position: absolute;
+	height: 0.9rem;
+	width: 0.9rem;
+	top: 0.1rem;
+	left: 0.1rem;
+	
+}
+.wztj-item .p1{
+	font-size: 0.14rem;
+	margin-bottom: 0.1rem;
+}
+.wztj-item .p2{
+	color: #858585;
+}
+.wztj-item .p3 .span1{
+	color: #5CB531;
+}
+.wztj-item .p3 .span2{
+	float: right;
+	
+}
+.wztj-item .p3 .price{
+	font-weight: 700;
+	color: #F9844B;
+}
+.wztj-item .p3 .qi{
+	color: #858585;
+	font-size: 0.11rem;
+}
+.wztj-item .p4 .span3{
+	float: right;
+	margin-right: 0.15rem;
+}
+.wztj-item .p4 .span4{
+	text-decoration: line-through;
+	color: #858585;
+	font-size: 0.11rem;
+}
+/*酒店预订*/
+.jdDetailWhole{
+	background-color: white;
+	width:100%;
+	height:100%;
+	font-size:0.12rem;
+	font-family: "微软雅黑";
+	overflow:scroll;
+}
+.jdImg{
+	width: 100%;
+	height: 1.6rem;
+	border-bottom: 0.06rem solid #F3F3F3;
+}
+.jdImg img{
+	width: 100%;
+	height: 100%;
+}
+.jd-Info{
+	padding: 0.1rem;
+	padding-top: 0.05rem;
+	border-bottom: 0.06rem solid #F3F3F3;
+	
+}
+.jd-Info p{
+	line-height: 1.8;
+}
+.jd-Info p:first-child{
+	font-size: 0.14rem;
+}
+.jd-Info p .span1 span:first-child,.jd-Info p .span2 span:first-child{
+	color: #858585;
+	margin-right: 0.1rem;
+}
+.jd-Info p .span2{
+	margin-right: 0.5rem;
+	float: right;
+}
+/*酒店详情602*/
+.jdxqWhole .jdxq-Info{
+	background-color: white;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 0.1rem;
+}
+.jdxq-Info .p1{
+	font-size: 0.14rem;
+	margin-bottom: 0.1rem;
+}
+.jdxq-Info .p1 .span1{
+	font-size: 0.12rem;
+	float: right;
+}
+.jdxq-Info .p2{
+	color: #858585;
+	margin-bottom: 0.06rem;
+}
+.jdxq-Info .p3 button{
+	height: 0.18rem;
+	width: 0.44rem;
+	border: 1px solid #5CB531;
+	color: #5CB531;
+	text-align: center;
+	margin-right: 0.08rem;
+	background-color: white;
+}
+.jdxqWhole .pInclude{
+	background: white;
+}
+.jdxqWhole .p4{
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	background: white;
+	border-bottom: 1px solid #CCCCCC;
+}
+.jdxqWhole .p5{
+	padding: 0.1rem;
+	border-bottom: 1px solid #CCCCCC;
+	background: white;
+}
+.jdxqWhole .p6{
+	padding: 0.1rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+.jdxqWhole .p6 .span1{
+	color: #5CB531;
+}
+.jdxqWhole .p6 .span2{
+	display: inline-block;
+	width: 0.15rem;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 0.05rem;
+	margin-left: 0.15rem;
+	margin-right: 0.15rem;
+}
+.jdxqWhole .p6 .span4{
+	color: #5CB531;
+}
+.jdxqWhole .p6 .span5{
+	float: right;
+}
+.jdxq-item{
+	background: white;
+	position: relative;
+	height: 0.9rem;
+	padding: 0.1rem;
+	padding-left: 0.85rem;
+	border-bottom: 1px solid #CCCCCC;
+	
+}
+.jdxq-item .pic{
+	height: 0.66rem;
+	width: 0.66rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.1rem;
+	
+}
+.jdxq-item .p7{
+	font-size: 0.14rem;
+	margin-bottom: 0;
+}
+.jdxq-item .p8{
+height: 0.16rem;
+color: #858585;
+}
+.jdxq-item .p8 .span2{
+	float: right;
+}
+.jdxq-item .p8 .span1{
+	color: #F9844B;
+	font-size: 0.14rem;
+	font-weight: 700;
+	margin-right: 0.05rem;
+}
+.jdxq-item .arrow{
+	height: 0.09rem;
+	width: 0.15rem;
+	margin-left: 0.1rem;
+}
+.jdxq-item .p9{
+	color: #858585;
+}
+.jdxqWhole .p10:first-child{
+	background: white;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	border-bottom: 1px solid #CCCCCC;
+	color: #858585;
+	height: 0.53rem;
+	padding-top: 0.18rem;
+	
+	
+}
+.jdxqWhole .p11{
+	border-bottom: 1px solid #CCCCCC;
+	color: #858585;
+	height: 0.53rem;
+	padding-top: 0.18rem;
+	background: white;
+	padding: 0.1rem;
+	padding-top: 0.18rem;
+	margin-bottom: 0.11rem;
+	
+}
+.jdxqWhole .p10 .span2{
+	float: right;
+	font-size: 0.14rem;
+	font-weight: 700;
+	color: #F9844B;
+	margin-right: 0.05rem;
+}
+.jdxqWhole .p10 .span1{
+	margin-left: 0.1rem;
+}
+.jdxqWhole .p10 button{
+	height: 0.3rem;
+	width: 0.65rem;
+	background: #5CB531;
+	color: white;
+	text-align: center;
+	float: right;
+	border: none;
+	border-radius: 0.05rem;
+	margin-top: -0.08rem;
+}
+.jdxqWhole .shouqi{
+	margin-bottom: 0.11rem;
+	border-top: 1px solid #CCCCCC;
+}

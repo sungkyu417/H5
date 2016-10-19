@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>提交订单</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+		<script>
+			$(document).ready(function(){
+  				$(".orderCommitWhole .pay .weixin").click(function(){
+    				if($(this).attr('src')=='../img/pay.png'){
+    					$(this).attr('src','../img/wxzf.png');
+    					$(".orderCommitWhole .pay .zhifubao").attr('src','../img/pay.png');
+    				}
+  				});
+  				$(".orderCommitWhole .pay .zhifubao").click(function(){
+    				if($(this).attr('src')=='../img/pay.png'){
+    					$(this).attr('src','../img/wxzf.png');
+    					$(".orderCommitWhole .pay .weixin").attr('src','../img/pay.png');
+    				}
+  				});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="orderCommitWhole">
+			<div class="oc-content">
+				<div class="content1">
+					<p>千朝浪屿水世界一日游</p>
+					<p><span>订单号：</span>123456</p>
+					<p><span>出发日期：</span>2016-07-25</p>
+					<p><span>出行人数：</span><span style="color: #f98e5d;margin-left: 0.03rem;">1</span>成人<span style="color: #f98e5d;margin-left: 0.03rem;">1</span>儿童</p>
+				</div>
+				<div class="content2">
+					<p><span>联系人：</span>李思</p>
+					<p><span>联系电话：</span>132****4532</p>
+				</div>
+			</div>
+			<div class="pay">
+				<p><img src="../img/wxpay.png"/>微信支付<img class="weixin" src="../img/wxzf.png"/></p>
+				<p><img src="../img/zfb.png"/>支付宝支付<img class="zhifubao" src="../img/pay.png"/></p>
+			</div>
+			<div class="warning">
+				<p>2小时内未完成支付，该订单将自动成为过期订单</p>
+			</div>
+			<div class="sc-footer oc-footer">
+				<!--<ul>
+					<li><span>总金额</span><span>¥750</span></li>
+					<li><span style="font-size: 0.15rem;margin-left: 0.3rem;">确认支付</span></li>
+				</ul>-->
+				<table>
+					<tr>
+						<td class="td1"><span>总金额</span><span>¥750</span></td>
+						<td class="td2"><span style="font-size: 0.15rem;">确认支付</span></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>订单列表</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<script src="../js/rem.js"></script>
+</head>
+<body>
+	<div class="commission">
+		<div class="orderlistcontent">
+			<div class="orlisttop">
+				<p>国内游<span>待支付</span></p>
+			</div>
+			<div class="orlistcontent">
+				<ul>
+					<li class="listtitle">海南三亚 天涯海角 阳光沙滩双飞4日跟团游</li>
+					<li>出行人数：1</li>
+					<li>出发日期：2016-07-25<span>合计：<span>¥5000</span></span></li>
+				</ul>
+			</div>
+			<div class="orlistbottom">
+				<button>取消订单</button>
+				<button>立即支付</button>
+			</div>
+		</div>
+		
+			<div class="orderlistcontent">
+			<div class="orlisttop">
+				<p>出境游<span class="passdate">已过期</span></p>
+			</div>
+			<div class="orlistcontent">
+				<ul>
+					<li class="listtitle">上海-济州岛-东京-上海 十日游</li>
+					<li>出行人数：1</li>
+					<li>出发日期：2016-07-25<span>合计：<span>¥7378</span></span></li>
+				</ul>
+			</div>
+			<div class="orlistbottom">
+				<button>删除订单</button>
+			</div>
+		</div>
+		
+			<div class="orderlistcontent">
+			<div class="orlisttop">
+				<p>特价游<span class="passdate">待出行</span></p>
+			</div>
+			<div class="orlistcontent">
+				<ul>
+					<li class="listtitle">千朝浪屿水世界一日游</li>
+					<li>出行人数：1</li>
+					<li>出发日期：2016-07-25<span>合计：<span>¥200</span></span></li>
+				</ul>
+			</div>
+			<div class="orlistbottom">
+				<button>申请退款</button>
+			</div>
+		</div>
+		<div class="diologMsg" style="display:none" id="pCount">
+				<div class="frame-shadow"></div>
+				<div class="diologframe">
+					<div class="frametop">
+						请选择对应的人员数量
+					</div>
+					<div class="framebottom">
+						<div class="fbright" onclick="okclick();"><a class="bsure">确定</a></div>
+					</div>
+				</div>
+		</div>
+			<div class="diologMsg2" style="display:block" id="pCount">
+				<div class="frame-shadow"></div>
+				<div class="diologframe">
+					<div class="frametop">
+						请选择对应的人员数量
+					</div>
+					<div class="framebottom">
+						<div class="fbright">
+							<a onclick="okclick();" class="bsure">确定</a>
+							<a>取消</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>

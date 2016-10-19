@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>积分商城发表评价</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style3.css">		
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+	</head>
+	<script>
+		$(document).ready(function(){
+			$(".pics img").click(function(){
+				$(this).attr('src','../img/pf-check.png');
+				$(this).prevAll().attr('src','../img/pf-check.png');
+				$(this).nextAll().attr('src','../img/pf-uncheck.png');
+			});
+		});
+	</script>
+	<body>
+		<div class="product-assess">
+			<div class="assess-content">
+				<textarea placeholder="评价内容..."></textarea>
+				<p><span>用户评分：</span><span class="pics"><img src="../img/pf-uncheck.png" /><img src="../img/pf-uncheck.png" /><img src="../img/pf-uncheck.png" /><img src="../img/pf-uncheck.png" /><img src="../img/pf-uncheck.png" /></span></p>
+			</div>
+			<button>确定</button>
+		</div>
+	</body>
+</html>

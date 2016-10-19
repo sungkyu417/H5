@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>添加常用游客</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+	</head>
+	<body>
+		<div class="addNewVisitorWhole">
+			<div class="anv-body">
+				<p>姓名<span><input type="text" placeholder="请填写游客姓名"/></span></p>
+				<p>手机号<span><input type="text" placeholder="请输入游客手机号"/></span></p>
+				<p>身份证<span><input type="text" placeholder="请填写游客证件号码"/></span></p>
+			</div>
+			<div class="anv-button ">
+				<button>提交</button>
+			</div>
+		</div>
+		<div class="diologMsg" style="display:none" id="pCount">
+				<div class="frame-shadow"></div>
+				<div class="diologframe">
+					<div class="frametop">
+						请选择对应的人员数量
+					</div>
+					<div class="framebottom">
+						<div class="fbright" onclick="okclick();"><a class="bsure">确定</a></div>
+					</div>
+				</div>
+		</div>
+			<div class="diologMsg2" style="display:none" id="pCount">
+				<div class="frame-shadow"></div>
+				<div class="diologframe">
+					<div class="frametop">
+						请选择对应的人员数量
+					</div>
+					<div class="framebottom">
+						<div class="fbright">
+							<a onclick="okclick();" class="bsure">确定</a>
+							<a>取消</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>

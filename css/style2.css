@@ -1,0 +1,212 @@
+
+/*分享下载*/
+.downloadwhole{
+	height:100%;
+	width:100%;
+	font-size:0.18rem;
+	background-color:#ffffff;
+}
+.downcontent{
+	height:4.37rem;
+	width:100%;
+	position:relative;
+}
+.downbton{
+	height:1.27rem;
+	width:2.3rem;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+.downbton button{
+	height:0.49rem;
+	width:100%;
+	border-radius:0.06rem;
+	border:none;
+	color:white;
+	font-size:0.18rem;
+	line-height:0.48rem;
+}
+.downbton button:first-child{
+	background-color:#424f57;
+}
+.downbton button:last-child{
+	background-color:#8a979f;
+	margin-top:0.28rem;
+}
+.downbottom{
+	width:100%;
+	padding-left:0.35rem;
+}
+.downbottom img{
+	height:0.51rem;
+	width:2.47rem;
+}
+/*分享注册*/
+.sharetouristwhole{
+	height:100%;
+	width:100%;
+	font-size:0.18rem;
+	background-color:#8a979f;
+}
+.sharetop{
+	height:3.18rem;
+	width:100%;
+	background-color:#ffffff;
+}
+.sharetopone,.sharetopthree{
+	height:1.09rem;
+	width:100%;
+	position:relative;
+}
+.sharetoptwo{
+	height:1rem;
+	width:100%;
+	position:relative;
+	color:white;
+	font-size:0.17rem;
+	text-align:center;
+	line-height:1rem;
+}
+.sharetoptwo div{
+	height:1rem;
+	width:1rem;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	background-color:#8a979f;
+}
+.sharetopone img{
+	height:0.85rem;
+	width:2.47rem;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	
+}
+.sharetopthree img{
+	height:0.51rem;
+	width:2.47rem;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+.sharebottom{
+	height:1.85rem;
+	width:100%;
+}
+.sharebottombtn{
+	height:1.5rem;
+	width:100%;
+	margin-top:0.22rem;
+	/*border:1px solid;*/
+	padding:0 0.34rem;
+}
+.sharebottombtn div input{
+	height:100%;
+	width:100%;
+	border-radius:0.08rem;
+	font-size:0.13rem;
+	line-height:0.37rem;
+	padding-left:0.42rem;	
+	border:none;
+}
+.sharebottombtn .shpasswordicon{
+	margin-top:0.09rem;
+}
+
+.sharebottombtn .sharezcbtn{
+	height:0.37rem;
+	width:2.01rem;
+	border:none;
+	background-color:#424f57;
+	border-radius:0.06rem;
+	color:white;
+	font-size:0.13rem;
+	margin-top:0.13rem;
+	font-family: "微软雅黑";
+	line-height:0.37rem;
+	text-align:center;
+	margin-left:0.24rem;
+}
+.usericon,.shpasswordicon{
+	position:relative;
+	width:2.5rem;
+	height:0.37rem;
+}
+.usericon .icon-user,.shpasswordicon .passwordicon{
+	position:absolute;
+	top:0.02rem;
+	left:0;
+	z-index:5;
+	width:0.42rem;
+	height:0.32rem;
+}
+.achieveyzm{
+	width:0.75rem;
+	height:0.2rem;
+	font-size:0.12rem;
+	border:1px solid #99a4aa;
+	position:absolute;
+	top:0.08rem;
+	right:0.11rem;
+	color:#99a4aa;
+	text-align:center;
+	line-height:0.2rem;
+	border-radius:0.06rem;
+}
+/*申请vip成功*/
+.applaysuccesswhole{
+	height:100%;
+	width:100%;
+	background-color:#f3f3f3;
+	padding:0 0.1rem;
+}
+.applaysutop{
+	height:3.15rem;
+	width:100%;
+	position:relative;
+}
+.applaysutop div{
+	height:1.46rem;
+	width:1.48rem;
+	position:absolute;
+	left:0;
+	right:0;
+	top:1.16rem;
+	bottom:0.54rem;
+	margin:auto;
+	
+}
+.applaysutop div img{
+	height:0.7rem;
+	width:0.7rem;
+	margin-left:0.37rem;
+	margin-bottom:0.28rem;
+}
+.applaysubottom{
+	width:100%;
+}
+.applaysubottom button{
+	width:100%;
+	height:0.4rem;
+	background-color:#5cb531;
+	border:none;
+	border-radius:0.05rem;
+	color:white;
+	font-size:0.15rem;
+	letter-spacing:0.05rem;
+	
+}

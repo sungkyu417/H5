@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>积分</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+		<script>
+			$(document).ready(function(){
+  				$(".fanxian").click(function(){
+  					$(this).css({"background-color":"#5cb531","color":"white"});
+  					$(".get-content").hide();
+    				$(".use-content").show();
+    				$(".tixian").css({"background-color":"white","color":"#5cb531"});
+    				
+  				});
+  				$(".tixian").click(function(){
+  					$(this).css({"background-color":"#5cb531","color":"white"});
+    				$(".use-content").hide();
+    				$(".get-content").show();
+    				$(".fanxian").css({"background-color":"white","color":"#5cb531"});
+
+  				});
+			});
+		</script>
+	</head>
+	<!--
+    	作者：sxl
+    	时间：2016-07-28
+    	描述：部分结构借鉴现金账户页面
+    -->
+	<body>
+		<div class="jifenWhole">
+			<div class="ca-header jf-header">
+				<div class="cash-available">
+					<span>当前积分共有</span>
+				</div>
+				<p class="num">3000</p>
+				<p>积分可通过注册会员、购买商品等方式获得。在购买旅游产品时可获得对应数量的积分。</p>
+			</div>
+			<div class="ca-button">
+				<button><span class="fanxian select">使用记录</span><span class="tixian">获得记录</span></button>
+			</div>
+			<div class="ca-content use-content">
+				<div class="content-item">
+					<p>商品兑换使用<span>&nbsp;234&nbsp;</span>积分<span class="time">2016-07-25</span></p>
+					<p>兑换商品名称：博莱纳干红葡萄酒</p>
+					<p>兑换时间：2016-06-13</p>
+				</div>
+				<div class="content-item">
+					<p>商品兑换使用<span>&nbsp;234&nbsp;</span>积分<span class="time">2016-07-25</span></p>
+					<p>兑换商品名称：博莱纳干红葡萄酒</p>
+					<p>兑换时间：2016-06-13</p>
+				</div>
+				<div class="content-item">
+					<p>商品兑换使用<span>&nbsp;234&nbsp;</span>积分<span class="time">2016-07-25</span></p>
+					<p>兑换商品名称：博莱纳干红葡萄酒</p>
+					<p>兑换时间：2016-06-13</p>
+				</div>
+				<div class="content-item">
+					<p>商品兑换使用<span>&nbsp;234&nbsp;</span>积分<span class="time">2016-07-25</span></p>
+					<p>兑换商品名称：博莱纳干红葡萄酒</p>
+					<p>兑换时间：2016-06-13</p>
+				</div>
+			</div>
+			<div class="ca-content get-content" style="display: none;">
+				<div class="content-item">
+					<p>注册获取积分<span>&nbsp;20&nbsp;</span>积分<span class="time">2016-07-25</span></p>
+					<p>时间：2016-06-13</p>
+				</div>
+				<div class="content-item">
+					<p>购买商品获得<span>&nbsp;100&nbsp;</span>积分<span class="time">2016-07-25</span></p>
+					<p>商品名称：首尔双飞5日游</p>
+					<p>时间：2016-06-13</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
