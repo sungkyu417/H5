@@ -7,6 +7,9 @@
 	font-family: "微软雅黑";
 	overflow:scroll;
 }
+.jiudianWhole{
+	overflow: hidden;
+}
 .jfscWhole .search{
 	height: 0.37rem;
 	padding: 0.05rem 0.1rem;
@@ -438,6 +441,109 @@
 	margin-left: 0.09rem;
 }
 .selectPart li:last-child{
+	border: none;
+}
+
+.bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:1.4rem;
+	left: 0;
+	background: black;
+	opacity: 0.7;
+	z-index:5;
+}
+.select111{
+	background-color: white;
+	z-index: 10;
+	overflow: auto;
+	position: absolute;
+	width: 100%;
+}
+.select111 li{
+	height: 0.45rem;
+	width: 100%;
+	padding: 0.17rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+.select111 li:first-child{
+	color: #5CB531;
+}
+.select111 li img{
+	float: right;
+	height: 0.1rem;
+	width: 0.11rem;
+}
+.ppls{
+	position: absolute;
+	top: 1.37rem;
+	width: 100%;
+	z-index: 10;
+}
+.select21 .bg{
+	top: 1.42rem;
+}
+.sh-select ul{
+	background: #F3F3F3;
+	height: 0.43rem;
+	width: 100%;
+}
+.sh-select ul li{
+	display: inline-block;
+	width: 0.6rem;
+	text-align: center;
+	height: 0.2rem;
+	background: white;
+	border: none;
+	margin-top: 0.1rem;
+	margin-left: 0.13rem;
+}
+.sh-hotel{
+	height: 2.57rem;
+	width: 100%;
+	overflow: auto;
+	background-color: white;
+	
+}
+.sh-hotel li{
+	height: 0.38rem;
+	padding: 0.1rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+.sh-hotel li img{
+	float: right;
+	width: 0.17rem;
+	height: 0.17rem;
+}
+.sh-hotel .buxian{
+	color: #5CB531;
+	
+}
+.sh-hotel .buxian img{
+	height: 0.1rem;
+	width: 0.11rem;
+}
+.select21 .reset{
+	height: 0.9rem;
+	width: 100%;
+	background: #F3F3F3;
+	text-align: center;
+	padding-top: 0.28rem;
+}
+.select21 .reset button{
+	height: 0.32rem;
+	width: 0.94rem;
+	border: 1px solid #5CB531;
+	color: #5CB531;
+	background: #F3F3F3;
+	
+}
+.select21  .sure{
+	height: 0.5rem;
+	width: 100%;
+	background: #5CB531;
+	color: white;
 	border: none;
 }
 .wztj-body{
