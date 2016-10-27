@@ -10,6 +10,20 @@
 		<script  src="../js/jquery-1.10.2.js"></script>
 		<script  src="../js/bootstrap.min.js"></script>
 		<script src="../js/rem.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.arrow').click(function(){
+					var src=$(this).attr('src');
+					if(src=="../img/show.png"){
+						$(this).attr('src',src="../img/hide.png");
+						$(this).parent().parent().parent().siblings().hide();
+					}else{
+						$(this).attr('src',src="../img/show.png");
+						$(this).parent().parent().parent().siblings().show();
+					}
+				})
+			});
+		</script>
 	</head>
 	<body>
 		<div class="jdxqWhole">
@@ -26,24 +40,36 @@
 			</div>
 			<p class="p5">电话：012-3456789</p>
 			<p class="p6">住&nbsp;<span class="span1">2016/07/08</span><span class="span2"></span><span class="span3">离&nbsp;<span class="span4">2016/07/09</span></span><span class="span5">共2晚</span></p>
+			<div class="jdxq">
 			<div class="jdxq-item">
 				<img class="pic" src="../img/aroundone.png" />
 				<p class="p7">大床房</p>
-				<p class="p8"><span class="span2"><span class="span1">￥350</span>起<img class="arrow" src="../img/arrowlist.png" /></span></p>
-				<p class="p9"><span class="span1">30</span>m<sup>2</sup>大床房</p>
-				
+				<p class="p8"><span class="span2"><span class="span1">￥350</span>起<img class="arrow" src="../img/show.png" /></span></p>
+				<p class="p9"><span class="span1">30</span>m<sup>2</sup>大床房</p>		
 			</div>
+			<div>
 			<div class="pInclude">
 			<p class="p10">无窗<span class="span1">免费取消</span><button>预定</button><span class="span2">￥350</span></p>
 			</div>
 			<p class="p10 p11">有窗<span class="span1">不可取消</span><button>预定</button><span class="span2">￥350</span></p>
-			<div class="jdxq-item shouqi">
+			</div>
+			</div>
+			
+			<div class="jdxq">
+			<div class="jdxq-item">
 				<img class="pic" src="../img/aroundone.png" />
 				<p class="p7">大床房</p>
-				<p class="p8"><span class="span2"><span class="span1">￥350</span>起<img class="arrow" src="../img/arrowlist.png" /></span></p>
-				<p class="p9"><span class="span1">30</span>m<sup>2</sup>大床房</p>
-				
+				<p class="p8"><span class="span2"><span class="span1">￥350</span>起<img class="arrow" src="../img/hide.png" /></span></p>
+				<p class="p9"><span class="span1">30</span>m<sup>2</sup>大床房</p>		
 			</div>
+			<div style="display: none;">
+			<div class="pInclude">
+			<p class="p10">无窗<span class="span1">免费取消</span><button>预定</button><span class="span2">￥350</span></p>
+			</div>
+			<p class="p10 p11">有窗<span class="span1">不可取消</span><button>预定</button><span class="span2">￥350</span></p>
+			</div>
+			</div>
+			
 		</div>
 	</body>
 </html>

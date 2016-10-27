@@ -1,0 +1,407 @@
+/*景点门票*/
+.jdmpWhole,.usersAssessWhole,.acWhole{
+	background: white;
+	width:100%;
+	height:100%;
+	font-size:0.12rem;
+	font-family: "微软雅黑";
+	overflow:scroll;
+}
+.jdmpSearch{
+	padding-left: 0.05rem;
+    padding-right: 0.09rem;
+    padding-bottom: 0.02rem;
+    position: relative;
+    background: #F3F3F3;
+}
+.jdmpSearch p{
+	margin-bottom: 0.05rem;
+	height: 0.3rem;
+	padding-top: 0.05rem;
+}
+.jdmpSearch span{
+	color: #5cb531;
+    display: inline-block;
+    font-size: 0.13rem;
+    width: 0.55rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 0.05rem;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.05rem;
+}
+.jdmpSearch .searchxiala{
+	height: 0.06rem;
+    width: 0.12rem;
+    margin-left: 0.6rem;
+}
+.jdmpSearch .searchimg{
+	height: 0.13rem;
+    width: 0.13rem;
+    position: absolute;
+    left: 0.95rem;
+    top: 0.12rem;
+}
+.jdmpSearch input{
+	height: 0.27rem;
+    width: 2.25rem;
+    background-color: white;
+    border: none;
+    padding-left: 0.1rem;
+    margin-left: 0.05rem;
+    padding-left: 0.35rem;
+    border-radius: 0.2rem;
+}
+.jdmpBody{
+	width: 100%;
+	height: 100%;
+	padding-left:0.08rem;
+	padding-top: 0.14rem;
+}
+.jdmpBody .title{
+	font-size: 0.15rem;
+	margin-bottom: 0.11rem;
+	position: relative;
+	padding-left: 0.1rem;
+}
+.jdmpBody .title span{
+	position: absolute;
+	width: 0.05rem;
+	height: 0.13rem;
+	background: #5CB531;
+	display: inline-block;
+	left: 0;
+	bottom: 0.03rem;
+	
+}
+.jdmpItem{
+	height: 1.06rem;
+	width: 100%;
+	position: relative;
+}
+.jdmpItem img{
+	height:1rem ;
+	width: 1rem;
+	position: absolute;
+	top: 0.03rem;
+	left: 0;
+}
+.jdmpInfo{
+	margin-left: 1.1rem;
+	border-bottom: 1px solid #CCCCCC;
+	height: 100%;
+}
+.jdmpInfo p:first-child{
+	font-size: 0.14rem;
+	height: 0.65rem;
+	padding-top: 0.06rem;
+
+}
+.jdmpInfo p:nth-child(2){
+	font-size: 0.1rem;
+	margin-bottom: 0.05rem;
+}
+.jdmpInfo p:nth-child(2) span:first-child{
+	color: #F9844B;
+	font-size: 0.08rem;
+}
+.jdmpInfo p:nth-child(2) span:last-child{
+	color: #F9844B;
+	font-weight: 700;
+}
+.jdmpInfo p:nth-child(3){
+	color: #858585;
+	font-size: 0.1rem;
+	text-decoration: line-through;
+} 
+/*筛选结果*/
+.sxjgBody{
+	padding-top: 0.07rem;
+}
+.sxjgBody .p1 .span2{
+	color: #F9844B;
+	font-weight: 700;
+	font-size: 0.12rem;
+}
+.sxjgBody .p1 .span3{
+	color: #858585;
+	margin-left: 0.05rem;
+	margin-right: 0.05rem;
+}
+.sxjgBody .p1 .span4{
+	color: #F9844B;
+	font-weight: 700;
+}
+.sxjgBody .jdmpInfo .p1 .span5{
+	color: #858585;
+	font-weight: normal;
+	margin-left: 0.05rem;
+}
+/*用户评价505*/
+.usersAssessWhole{
+	font-size: 0.11rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+}
+.assess-item{
+	padding-top: 0.13rem;
+	padding-bottom: 0.13rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+.assess-item .pics img{
+	width: 0.18rem;
+	height: 0.16rem;
+}
+.assess-item .time{
+	color: #858585;
+	float: right;
+}
+.assess-item p:first-child{
+	margin-bottom: 0.1rem;
+}
+/*积分商城订单填写506*/
+.ofWhole{
+	background:#F3F3F3;
+	width:100%;
+	height:100%;
+	font-size:0.12rem;
+	font-family: "微软雅黑";
+	overflow:scroll;
+}
+.user-info{
+	background: white;
+	padding-top: 0.17rem;
+	padding-left: 0.1rem;
+	padding-bottom: 0.13rem;
+	padding-right: 0.3rem;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 0.1rem;
+	position: relative;
+}
+.user-info .user{
+	font-size: 0.14rem;
+	margin-bottom: 0.1rem;
+}
+.user-info .tel{
+	color: #2f2f2f;
+	float: right;
+}
+.user-info .address{
+	font-size: 0.11rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.user-info img{
+	width: 0.07rem;
+	height: 0.15rem;
+	position: absolute;
+	top: 0.33rem;
+	right: 0.1rem;
+}
+.pro-info{
+	background: white;
+	padding-top: 0.15rem;
+	padding-bottom: 0.15rem;
+	padding-left: 0.09rem;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+}
+.pro-info .title{
+	font-size: 0.14rem;
+	margin-bottom: 0.2rem;
+}
+.pro-info .p1 span:first-child{
+	color: #F9844B;
+	font-weight: 700;
+	margin-right: 0.02rem;
+}
+.pro-info .p1 span:nth-child(2){
+	color: #F9844B;
+	margin-left: 0.02rem;
+	margin-right: 0.02rem;
+}
+.pro-info p:nth-child(3){
+	color: #858585;
+	text-decoration: line-through;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+}
+.order-num{
+	border-bottom: 1px solid #CCCCCC;
+	background: white;
+	padding: 0.1rem;
+	height: 0.5rem;
+}
+.order-num .span1{
+	margin-top: 0.07rem;
+	display: inline-block;
+	color: #4b4a4a;
+	font-size: 0.13rem;
+}
+.order-num .span2{
+	float: right;	
+}
+.order-num .span2 button{
+	height: 0.28rem;
+	width: 0.28rem;
+	background: white;
+	border: 1px solid #989898;
+}
+.order-num .minus{
+	border-bottom-left-radius: 0.05rem;
+	border-top-left-radius:0.05rem ;
+
+}
+.order-num .num{
+	color: #5CB531;
+}
+.order-num .plus{
+	border-bottom-right-radius: 0.05rem;
+	border-top-right-radius:0.05rem ;
+	color: #5CB531;
+
+}
+.order-backup{
+	background: white;
+	border-bottom: 1px solid #CCCCCC;
+	height: 1.25rem;
+	width: 100%;
+}
+.order-backup textarea{
+	height: 100%;
+	width: 100%;
+	border: none;
+	padding-top:0.17rem ;
+	padding-left: 0.1rem;
+	
+}
+.sc-footer {
+    margin-top: 2rem;
+    width: 100%;
+}
+.oc-footer {
+    position: relative;
+    margin-top: 1.85rem;
+}
+.sc-footer table {
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.sc-footer td {
+    width: 50%;
+    height: 0.45rem;
+    text-align: center;
+}
+.sc-footer .td1{
+    background-color: white;
+    color: #989898;
+}
+.sc-footer td {
+    width: 50%;
+    height: 0.45rem;
+    text-align: center;
+}
+.sc-footer .td2{
+    background-color: #5cb531;
+    color: white;
+}
+
+.oc-footer .td1 .span1{
+    position: absolute;
+    left: 1.2rem;
+    top: 0.06rem;
+    color: black;
+}
+
+
+.oc-footer .td1 .span2{
+    display: block;
+    position: absolute;
+    top: 0.25rem;
+    font-size: 0.12rem;
+    right: 1.63rem;
+	color: black;
+}
+/*积分商城地址选择507*/
+.acWhole{
+	background: #F3F3F3;
+	padding-top: 0.12rem;
+	padding-left: 0.09rem;
+	padding-right: 0.09rem;
+}
+.ac-item{
+	border: 1px solid #dfdfdf;
+	margin-bottom: 0.09rem;
+	background: white;
+	border-radius: 0.05rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	padding-top: 0.12rem;
+	padding-bottom: 0.12rem;
+	box-shadow: #c5c4c4 0.01rem 0.02rem 0.01rem;
+}
+.ac-item .p1{
+	margin-bottom: 0.1rem;
+}
+.ac-item .p2{
+	margin-bottom: 0.06rem;
+}
+.ac-item .name{
+	font-size: 0.13rem;
+}
+.ac-item .right{
+	float: right;
+}
+.ac-item .right span{
+	display: inline-block;
+	width:0.42rem ;
+}
+.ac-item .right .edit{
+	border-right:1px solid #CCCCCC ;
+}
+.ac-item .right .delete{
+	color: #F9844B;
+	text-align: right;
+}
+/*最新资讯910*/
+.recentNewsWhole {
+	width: 100%;
+    height: 100%;
+    font-size: 0.12rem;
+    font-family: "微软雅黑";
+    background: white;
+    overflow: scroll;
+    padding-top: 0.19rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+.recentNewsWhole p {
+    text-indent: 2em;
+    font-size: 0.11rem;
+}
+.recentNewsWhole p:nth-of-type(1) {
+    margin-bottom: 0.11rem;
+}
+
+.recentNewsWhole img {
+    width: 100%;
+    height: 1.35rem;
+}
+
+.recentNewsWhole p:nth-of-type(3) {
+    margin-bottom: 0.2rem;
+    margin-top: -0.05rem;
+}
+
+.recentNewsWhole p:nth-of-type(4) {
+    margin-bottom: 0.2rem;
+    text-indent: 0;
+}
+

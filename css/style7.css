@@ -1,0 +1,420 @@
+/*门票详情*/
+.ticketDetail{
+	background:#F3F3F3;
+	width:100%;
+	height:100%;
+	font-size:0.12rem;
+	font-family: "微软雅黑";
+	overflow:scroll;
+}
+.xianlu-header .header1 {
+    width: 100%;
+    position: relative;
+}
+.xianlu-header .header1 img {
+    height: 1.61rem;
+    width: 100%;
+}
+.xianlu-header .header1 p {
+    height: 0.25rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    padding-top: 0.04rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    letter-spacing: 0.01rem;
+}
+.xianlu-header .header1 p span {
+    float: right;
+    letter-spacing: 0;
+}
+.xianlu-header{
+	background: white;
+	margin-bottom: 0.1rem;
+	padding-bottom: 0.06rem;
+}
+.xianlu-header .p1{
+	font-size: 0.13rem;
+	padding-left: 0.1rem;
+	margin-top: 0.08rem;
+}
+.xianlu-header .p2,.xianlu-header .p3{
+	padding-left: 0.1rem;
+	margin-bottom: 0.06rem;
+	margin-top: 0.06rem;
+}
+.detail-body{
+	width: 100%;
+}
+.detail-body ul{
+	height: 0.5rem;
+	width: 100%;
+	font-size: 0.14rem;
+	border-bottom: 1px solid #CCCCCC;
+	background: white;
+}
+.detail-body ul li{
+	display: inline-block;
+	text-align: center;
+	width: 49%;
+	padding-top: 0.15rem;
+	height: 100%;
+	
+}
+.detail-body .item{
+	height: 0.75rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	border-bottom: 1px solid #CCCCCC;
+	background: white;
+	padding-top: 0.1rem;
+}
+.detail-body .item .p1{
+	font-size: 0.14rem;
+	margin-bottom: 0.05rem;
+}
+.detail-body .item .span1{
+	margin-top: 0.05rem;
+	display: inline-block;
+}
+.detail-body .item .span2{
+	color: #F9844B;
+	font-weight: 700;
+	float: right;
+	margin-top: 0.05rem;
+}
+.detail-body .item button{
+	height: 0.3rem;
+	width: 0.65rem;
+	background: #5CB531;
+	color: white;
+	font-size: 0.14rem;
+	border: none;
+	border-radius: 0.03rem;
+	float: right;
+	margin-left: 0.08rem;
+}
+.detail-body .items .item:last-child{
+	border: none;
+}
+.detail-body .p3{
+	height: 0.5rem;
+	margin-top: 0.1rem;
+	background: white;
+	font-size: 0.15rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	padding-top: 0.15rem;
+}
+.detail-body .p3 img{
+	height: 0.15rem;
+	width: 0.08rem;
+	float: right;
+}
+.detail-body .select21{
+	background: white;
+	height: 100%;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	padding-top: 0.15rem;
+}
+.detail-body .select21 p{
+	text-indent: 2em;
+}
+.detail-body .select21 img{
+	height: 1.5rem;
+	width: 100%;
+	margin-top: 0.05rem;
+	margin-bottom: 0.05rem;
+}
+/*酒店详情*/
+.jiudianWhole{
+	background-color: #F3F3F3;
+    width: 100%;
+    height: 100%;
+    font-size: 0.12rem;
+    font-family: "微软雅黑";
+    overflow: hidden;
+}
+.jiudianWhole .searchBar {
+    height: 0.36rem;
+    width: 2.98rem;
+    margin: 0.07rem 0.1rem;
+    background-color: white;
+    padding: 0.06rem 0.1rem;
+}
+.jiudianWhole .searchBar .first {
+    font-size: 0.14rem;
+    color: #5CB531;
+    width: 0.8rem;
+    padding-right: 0.1rem;
+    border-right: 1px solid #CCCCCC;
+}
+.jiudianWhole .searchBar span {
+    display: inline-block;
+}
+
+.jiudianWhole .searchBar .place {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0.56rem;
+}
+
+
+.jiudianWhole .searchBar .arrow {
+    height: 0.06rem;
+    width: 0.1rem;
+    float: right;
+    margin-top: 0.08rem;
+}
+
+.jiudianWhole .searchBar .search {
+    height: 0.13rem;
+    width: 0.12rem;
+    margin-left: 0.1rem;
+    margin-right: 0.12rem;
+    margin-bottom: 0.05rem;
+}
+
+.jiudianWhole .searchBar input {
+    border: none;
+    width: 1.5rem;
+}
+
+
+.timeChoose {
+    height: 0.4rem;
+    background-color: white;
+    padding: 0.08rem 0.1rem;
+    margin-bottom: 0.03rem;
+}
+
+.timeChoose input {
+    height: 0.25rem;
+    width: 1.05rem;
+    border: 1px solid #CCCCCC;
+    border-radius: 0.05rem;
+    background-color: #F3F3F3;
+    padding-left: 0.06rem;
+}
+
+.timeChoose .line {
+    border-bottom: 1px solid #CCCCCC;
+    display: inline-block;
+    width: 0.15rem;
+    margin-left: 0.05rem;
+    margin-bottom: 0.05rem;
+}
+
+.timeChoose input:last-child {
+    float: right;
+}
+
+.selectPart{
+	height: 0.42rem;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 0.03rem;
+	
+}
+.selectPart ul{
+	width: 100%;
+	height: 100%;
+	padding-top: 0.13rem;
+	padding-bottom: 0.15rem;
+}
+.selectPart li{
+	display: inline-block;
+	
+	text-align: center;
+	width: 32%;
+	border-right: 1px solid #CCCCCC;
+}
+.selectPart li img{
+	height: 0.06rem;
+	width: 0.08rem;
+	margin-left: 0.09rem;
+}
+.selectPart li:last-child{
+	border: none;
+}
+
+.bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:1.4rem;
+	left: 0;
+	background: black;
+	opacity: 0.7;
+	z-index:5;
+}
+.select111{
+	background-color: white;
+	z-index: 10;
+	overflow: auto;
+	position: absolute;
+	width: 100%;
+}
+.select111 li{
+	height: 0.45rem;
+	width: 100%;
+	padding: 0.17rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+.select111 li:first-child{
+	color: #5CB531;
+}
+.select111 li img{
+	float: right;
+	height: 0.1rem;
+	width: 0.11rem;
+}
+.ppls{
+	position: absolute;
+	top: 1.37rem;
+	width: 100%;
+	z-index: 10;
+}
+.select21 .bg{
+	top: 1.42rem;
+}
+.sh-select ul{
+	background: #F3F3F3;
+	height: 0.43rem;
+	width: 100%;
+}
+.sh-select ul li{
+	display: inline-block;
+	width: 0.6rem;
+	text-align: center;
+	height: 0.22rem;
+	padding-top: 0.02rem;
+	background: white;
+	border: none;
+	margin-top: 0.1rem;
+	margin-left: 0.13rem;
+}
+.sh-hotel{
+	height: 2.57rem;
+	width: 100%;
+	overflow: auto;
+	background-color: white;
+	
+}
+.sh-hotel li{
+	height: 0.38rem;
+	padding: 0.1rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+.sh-hotel li img{
+	float: right;
+	width: 0.17rem;
+	height: 0.17rem;
+}
+.sh-hotel .buxian{
+	color: #5CB531;
+	
+}
+.sh-hotel .buxian img{
+	height: 0.1rem;
+	width: 0.11rem;
+}
+.select21 .reset{
+	height: 0.9rem;
+	width: 100%;
+	background: #F3F3F3;
+	text-align: center;
+	padding-top: 0.28rem;
+}
+.select21 .reset button{
+	height: 0.32rem;
+	width: 0.94rem;
+	border: 1px solid #5CB531;
+	color: #5CB531;
+	background: #F3F3F3;
+	
+}
+.select21  .sure{
+	height: 0.5rem;
+	width: 100%;
+	background: #5CB531;
+	color: white;
+	border: none;
+}
+.wztj-body{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+.wztj-body .p5{
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	height: 0.34rem;
+	padding: 0.1rem;
+	padding-top: 0.07rem;
+}
+.wztj-body .p5 .span1{
+	font-size: 0.14rem;
+}
+.wztj-body .p5 .span3{
+	float: right;
+}
+.wztj-body .p5 .span2{
+	color: #F9844B;
+}
+.wztj-item{
+	border-bottom: 1px solid #CCCCCC;
+	width: 100%;
+	height: 1.15rem;
+	position: relative;
+	padding-left: 1.15rem;
+	padding-top: 0.2rem;
+	padding-right: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+.wztj-item img{
+	position: absolute;
+	height: 0.9rem;
+	width: 0.9rem;
+	top: 0.1rem;
+	left: 0.1rem;
+	
+}
+.wztj-item .p1{
+	font-size: 0.14rem;
+	margin-bottom: 0.1rem;
+}
+.wztj-item .p2{
+	color: #858585;
+}
+.wztj-item .p3 .span1{
+	color: #5CB531;
+}
+.wztj-item .p3 .span2{
+	float: right;
+	
+}
+.wztj-item .p3 .price{
+	font-weight: 700;
+	color: #F9844B;
+}
+.wztj-item .p3 .qi{
+	color: #858585;
+	font-size: 0.11rem;
+}
+.wztj-item .p4 .span3{
+	float: right;
+	margin-right: 0.15rem;
+}
+.wztj-item .p4 .span4{
+	text-decoration: line-through;
+	color: #858585;
+	font-size: 0.11rem;
+}

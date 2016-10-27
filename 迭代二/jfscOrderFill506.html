@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>积分商城订单填写</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style5.css">		
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".minus").click(function(){
+					var num=parseInt($(".num").text());
+					if(num>0){
+						num=num-1;
+						$('.num').text(num);
+						if(num==0){
+							$('.num').css("color","#858585");
+							
+						}
+					}
+				});
+				$(".plus").click(function(){
+					$('.num').css("color","#5CB531");
+					var num=parseInt($(".num").text());
+					num=num+1;
+					$('.num').text(num);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="ofWhole">
+			<div class="user-info">
+				<p class="user">收货人：张丽丽<span class="tel">1234567890</span></p>
+				<p class="address">收货地址：江苏省南京市奥体大街江苏省南京市奥体大街</p>
+				<img src="../img/arrow.png" />
+			</div>
+			<div class="pro-info">
+				<p class="title">葡萄酒葡萄酒葡萄酒葡萄酒葡萄酒</p>
+				<p class="p1">会员价：<span>￥50</span>+<span>80</span><span>积分</span></p>
+				<p>门市价：￥60</p>
+				<p>邮件运费：中国大陆包邮</p>
+			</div>
+			<div class="order-num">
+				<p><span class="span1">订购数量</span><span class="span2"><button class="minus" style="border-right: none;">-</button><button class="num">1</button><button class="plus" style="border-left: none;">+</button></span></p>
+			</div>
+			<div class="order-backup">
+				<textarea placeholder="订单备注："></textarea>
+			</div>
+			<div class="sc-footer oc-footer">
+				<table>
+					<tr>
+						<td class="td1"><span class="span1">总金额</span><span class="span2"><span style="color: #F9844B;font-size: 0.13rem;">￥36</span>+<span style="color: #F9844B; font-size: 0.13rem;margin-right: 0.02rem;">500</span>积分</span></td>
+						<td class="td2"><span style="font-size: 0.15rem;">提交订单</span></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

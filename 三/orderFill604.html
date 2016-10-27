@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>酒店订单填写</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style6.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".span5").click(function(){
+					$('.img5').toggle();
+				});
+				$(".span6").click(function(){
+					$('.img6').toggle();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="orderWhole">
+			<div class="orderInfo">
+				<p class="p1">大床房【无早】</p>
+				<p><span class="span2"><span>入住：&nbsp;&nbsp;</span>2016-08-13</span><span class="span1"><span>离店：&nbsp;&nbsp;</span>2016-08-15</span></p>
+				<p><span class="span2"><span>早餐：&nbsp;&nbsp;</span>无</span><span class="span1"><span>宽带：&nbsp;&nbsp;</span>无</span></p>
+				<p><span class="span2"><span>面积：&nbsp;&nbsp;</span>30m<sup>2</sup></span><span class="span1"><span>加床：&nbsp;&nbsp;</span>不可加床</span></p>
+				<p><span class="span2"><span>床型：&nbsp;&nbsp;</span>大床（1.8米）</span></p>
+				<p class="p2"><span>房间数&nbsp;&nbsp;&nbsp;&nbsp;</span>1间</p>
+				<div class="person">
+					<span class="span1">入住人</span>
+					<table>
+						<tr>
+							<td class="td1">李尔</td><td rowspan="2" class="addPerson">添加入住人</td>
+						</tr>
+						<tr>
+							<td class="td2"><span>每个房间一个入住人</span></td>
+						</tr>
+					</table>
+				</div>
+				<p class="p5"><span>联系手机&nbsp;&nbsp;</span>1234567890</p>
+			</div>
+			<div class="fapiao">
+				<p class="p6"><span class="span5"><img class="img5" src="../img/chk.png" /></span>需要发票</p>
+			</div>
+			<p class="p7"><span class="span6"><img class="img6" src="../img/chk.png" /></span>我已阅读并同意<a>《门票预定须知》</a></p>
+			<div class="sc-footer oc-footer" style="margin-top: 1.2rem;">
+				<table>
+					<tr>
+						<td class="td1"><span class="span1">总金额</span><span class="span2"><span style="color: #F9844B;font-size: 0.13rem;">￥400</span></td>
+						<td class="td2"><span style="font-size: 0.15rem;">提交订单</span></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

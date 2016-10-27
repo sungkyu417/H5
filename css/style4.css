@@ -1,0 +1,77 @@
+/*类别筛选*/
+.lbsxWhole{
+	background-color: white;
+	width:100%;
+	height:100%;
+	font-size:0.12rem;
+	font-family: "微软雅黑";
+	overflow:scroll;
+}
+.lbsxWhole{
+	background: white;
+	position: relative;
+}
+
+.lbsx-nav{
+	position: fixed;
+	overflow: scroll;
+	height: 100%;
+}
+.lbsx-nav ul {
+    height: 100%;
+    width: 0.74rem;
+    background-color: #F3F3F3;
+    top: 0;
+    left: 0;
+}
+.lbsx-nav ul li {
+    font-size: 0.13rem;
+    height: 0.5rem;
+    text-align: center;
+    padding-top: 0.15rem;
+    border-right: 1px solid #e9e9e9;
+    background-color: #F3F3F3;
+    color: #5f5e5e;
+}
+.lbsx-nav .active{
+	background: white;
+	border-right: none;
+	color: black;
+}
+.lbsx-body{
+	padding-left: 0.85rem;
+	padding-top: 0.15rem;
+	font-size: 0.11rem;
+}
+.lbsx-item p{
+	margin-bottom: 0.1rem;
+	padding-left: 0.09rem;
+}
+.lbsx-item table{
+	border-collapse: separate;
+    border-spacing: 0.09rem 0;
+}
+.lbsx-item td{
+	height: 0.33rem;
+	width: 0.84rem;
+	line-height: 1;
+}
+.lbsx-item td button{
+	height: 100%;
+	width: 100%;
+	color: ##5f5e5e;
+	border: 1px solid #CCCCCC;
+	background: white;
+	color: #585a58;
+}
+.lbsx-item .active{
+	border: 1px solid #5CB531;
+	color: #5CB531;
+	background: #ddf7b7;
+}
+.lbsx-body .lbsx-item{
+	margin-top: 0.25rem;
+}
+.lbsx-body .lbsx-item:first-child{
+	margin-top: 0;
+}

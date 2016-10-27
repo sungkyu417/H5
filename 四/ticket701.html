@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>门票详情</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style7.css">
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+		<style>
+			.active{
+				color: #5cb531;
+				border-bottom: 0.03rem solid #5cb531;
+			}
+		</style>
+		<script>
+			$(document).ready(function(){
+				$(".detail-body li").click(function(){
+					$(this).addClass("active");
+					$(this).siblings().removeClass("active");
+					var id=$(this).attr("id");
+					id='#'+id+'1';
+					$(id).siblings().hide();
+					$(id).show();
+					
+					
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="ticketDetail">
+			<div class="xianlu-header">
+				<div class="header1">
+					<img src="../img/aroundtwo.png" />
+					<p>跟团游|南京出发<span>产品编号:86032</span></p>
+				</div>
+				<p class="p1">潮玩三亚，邻水周界群岛门票</p>
+				<p class="p2">景点地址：海南省三亚市</p>
+				<p class="p3">开放时间：全天开放</p>
+			</div>
+			<div class="detail-body">
+				<ul>
+					<li id="select1">购票</li>
+					<li id="select2" class="active">景点简介</li>
+				</ul>
+				<div>
+				<div class="select11" id="select11" style="display: none;">
+					<div class="items">
+					<div class="item">
+						<p class="p1">天目湖水世界一日游成人票</p>
+						<p class="p2"><span class="span1">天目湖成人票</span><button>预定</button><span class="span2">￥400</span></p>
+					</div>
+					<div class="item">
+						<p class="p1">天目湖水世界一日游成人票</p>
+						<p class="p2"><span class="span1">天目湖成人票</span><button>预定</button><span class="span2">￥400</span></p>
+					</div>
+					<div class="item">
+						<p class="p1">天目湖水世界一日游成人票</p>
+						<p class="p2"><span class="span1">天目湖成人票</span><button>预定</button><span class="span2">￥400</span></p>
+					</div>
+					</div>
+						<p class="p3">注意事项<img src="../img/xl-arrow.png" /></p>
+					
+				</div>
+				<div class="select21" id="select21">
+					<p>
+						宜昌，如它的名字一样，适宜人居，繁荣昌盛。美景与江水的滋润，巴楚文化的浸染，让这里从古至今一直美丽。这里石、瀑、洞、泉......多种景观元素巧妙组合，山有山的伟岸，水有水的柔媚，洞有洞的神奇，瀑有瀑的壮丽，石有石的气质极致大自然之天工造化，这里有洪荒之美、这里有苍凉之美、这里有阴柔之美、这里更有雄浑之美。
+					</p>
+					<img src="../img/aroundtwo.png" />
+					<p>
+						宜昌，如它的名字一样，适宜人居，繁荣昌盛。美景与江水的滋润，巴楚文化的浸染，让这里从古至今一直美丽。这里石、瀑、洞、泉......多种景观元素巧妙组合，山有山的伟岸，水有水的柔媚，洞有洞的神奇，瀑有瀑的壮丽，石有石的气质极致大自然之天工造化，这里有洪荒之美、这里有苍凉之美、这里有阴柔之美、这里更有雄浑之美。
+					</p>
+					<img src="../img/aroundtwo.png" />
+				</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,5 +1,5 @@
 /*积分商城*/
-.jfscWhole,.product-assess,.jiudianWhole,.jdxqWhole{
+.jfscWhole,.product-assess,.jiudianWhole,.jdxqWhole,.lbsxWhole,.newsWhole{
 	background-color: #F3F3F3;
 	width:100%;
 	height:100%;
@@ -673,6 +673,7 @@
 	margin-bottom: 0.06rem;
 }
 .jdxq-Info .p3 button{
+	font-size: 0.1rem;
 	height: 0.18rem;
 	width: 0.44rem;
 	border: 1px solid #5CB531;
@@ -808,4 +809,116 @@ color: #858585;
 .jdxqWhole .shouqi{
 	margin-bottom: 0.11rem;
 	border-top: 1px solid #CCCCCC;
+}
+/*类别筛选*/
+.lbsxWhole{
+	background: white;
+	position: relative;
+}
+
+.lbsx-nav{
+	position: fixed;
+	overflow: scroll;
+	height: 100%;
+}
+.lbsx-nav ul {
+    height: 100%;
+    width: 0.74rem;
+    background-color: #F3F3F3;
+    top: 0;
+    left: 0;
+}
+.lbsx-nav ul li {
+    font-size: 0.13rem;
+    height: 0.5rem;
+    text-align: center;
+    padding-top: 0.15rem;
+    border-right: 1px solid #e9e9e9;
+    background-color: #F3F3F3;
+    color: #5f5e5e;
+}
+.lbsx-nav .active{
+	background: white;
+	border-right: none;
+	color: black;
+}
+.lbsx-body{
+	padding-left: 0.85rem;
+	padding-top: 0.15rem;
+	font-size: 0.11rem;
+}
+.lbsx-item p{
+	margin-bottom: 0.1rem;
+	padding-left: 0.09rem;
+}
+.lbsx-item table{
+	border-collapse: separate;
+    border-spacing: 0.09rem 0;
+}
+.lbsx-item td{
+	height: 0.33rem;
+	width: 0.84rem;
+	line-height: 1;
+}
+.lbsx-item td button{
+	height: 100%;
+	width: 100%;
+	color: ##5f5e5e;
+	border: 1px solid #CCCCCC;
+	background: white;
+	color: #585a58;
+}
+.lbsx-item .active{
+	border: 1px solid #5CB531;
+	color: #5CB531;
+	background: #ddf7b7;
+}
+.lbsx-body .lbsx-item{
+	margin-top: 0.25rem;
+}
+.lbsx-body .lbsx-item:first-child{
+	margin-top: 0;
+}
+/*最新资讯*/
+.newsWhole{
+	background: white;
+}
+.newsWhole .news-item:first-child{
+	border-top:0.09rem solid #F3F3F3;
+}
+				
+.news-item{
+	position: relative;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 0.12rem;
+}
+.news-item img{
+	position: absolute;
+	height: 0.7rem;
+	width: 0.7rem;
+	left: 0.1rem;
+	top: 0.1rem;
+}
+.news-info{
+	margin-left: 0.9rem;
+}
+.news-info .title{
+	padding-top: 0.17rem;
+	margin-bottom:0.1rem ;
+	width: 2.15rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.news-info .content{
+	font-size: 0.11rem;
+	color: #858585;
+	width:2.07rem ;
+	height: 0.32rem;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	text-align: left;
+	box-sizing: border-box;
 }

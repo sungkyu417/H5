@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>提交订单</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/style6.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<script  src="../js/jquery-1.10.2.js"></script>
+		<script  src="../js/bootstrap.min.js"></script>
+		<script src="../js/rem.js"></script>
+		<script>
+			$(document).ready(function(){
+  				$(".pay .weixin").click(function(){
+    				if($(this).attr('src')=='../img/pay.png'){
+    					$(this).attr('src','../img/wxzf.png');
+    					$(".pay .zhifubao").attr('src','../img/pay.png');
+    				}
+  				});
+  				$(".pay .zhifubao").click(function(){
+    				if($(this).attr('src')=='../img/pay.png'){
+    					$(this).attr('src','../img/wxzf.png');
+    					$(".pay .weixin").attr('src','../img/pay.png');
+    				}
+  				});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="orderSuccessWhole">
+			<div class="personInfo">
+				<p class="p1"><span>订单号：</span>1234567</p>
+				<p class="p2"><span>收货人：</span>李思</p>
+				<p><span>联系手机：</span>1234567890</p>
+				<p><span>收货地址：</span>江苏省南京市奥体大街123号</p>
+				<p><span>备注信息：</span>无</p>
+			</div>
+			<div class="productInfo">
+				<p class="p1">商品信息</p>
+				<p><span>商品名称：</span>葡萄酒</p>
+				<p><span>商品价格：</span>会员价<span style="color: #F9844B;margin-right: 0;">￥38</span>+<span style="color: #F9844B;margin-right: 0;">60</span>积分</p>
+				<p><span>购买数量：</span>3</p>
+				<p><span>邮件运费：</span>中国大陆包邮</p>
+			</div>
+			<div class="pay">
+				<p><img src="../img/wxpay.png"/>微信支付<img class="weixin" src="../img/wxzf.png"/></p>
+				<p><img src="../img/zfb.png"/>支付宝支付<img class="zhifubao" src="../img/pay.png"/></p>
+			</div>
+			<div class="warning">
+				<p>2小时内未完成支付，该订单将自动成为过期订单</p>
+			</div>
+			<div class="sc-footer oc-footer">
+				<table>
+					<tr>
+						<td class="td1"><span class="span1">总金额</span><span class="span2"><span style="color: #F9844B;font-size: 0.13rem;">￥36</span>+<span style="color: #F9844B; font-size: 0.13rem;margin-right: 0.02rem;">500</span>积分</span></td>
+						<td class="td2"><span style="font-size: 0.15rem;">立即支付</span></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
