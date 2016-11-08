@@ -139,7 +139,7 @@
     height: 100%;
     font-size: 0.12rem;
     font-family: "微软雅黑";
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .jiudianWhole .searchBar {
     height: 0.36rem;

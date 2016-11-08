@@ -8,7 +8,7 @@
 	overflow:scroll;
 }
 .jiudianWhole{
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .jfscWhole .search{
 	height: 0.37rem;
