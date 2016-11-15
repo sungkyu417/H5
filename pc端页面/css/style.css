@@ -1,0 +1,236 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑";
+	min-width: 996px;
+	margin: 0 auto;
+}
+a:hover{text-decoration: none;}
+/*底部设置*/
+footer{
+	background: #EEEEEE;
+	padding-top: 60px;
+	padding-bottom:50px ;
+	width: 100%;
+}
+footer p{
+	text-align: center;
+	font-size: 13px;
+	color: #858585;
+}
+footer .footer_p1{
+	margin-bottom: 13px;
+}
+/*注册第一步*/
+/*头部设置*/
+header{
+	padding-left: 20%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	box-shadow: 5px 0 10px #e4e4e4;
+}
+header img{
+	width: 80px;
+	height: 70px;
+	margin-right: 3%;
+}
+header .banner{
+	display: inline-block;
+	height: 50px;
+	border-right: 1px solid #b6b6b6;
+	margin-right: 4%;
+	margin-bottom: 10px;
+}
+header .header-text{
+	font-size: 22px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: -60px;
+	color: #474747;
+}
+/*ssection部分*/
+section{
+	padding-left: 31.9%;
+	padding-top: 60px;
+}
+.registerBody label{
+	display: block;
+	font-size: 16px;
+	color: #606060;
+	margin-bottom: 3px;
+	letter-spacing: 3px;
+}
+.registerBody div{
+	margin-bottom: 16px;
+}
+.registerBody input{
+	height: 45px;
+	width:42%;
+	padding-left: 10px;
+}
+.checkSeq input{
+	width: 27.5%;
+	margin-right: 0.5%;
+}
+.checkSeq button{
+	height: 48px;
+	background: #e2fad7;
+	border: 1px solid #5CB531;
+	color: #5CB531;
+	font-size: 18px;
+	width: 14%;
+}
+.code span{
+	margin-left: 12px;
+	font-size: 12px;
+	color: #8b8b8b;
+}
+.xieyi{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.xieyi .span1{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border: 1px solid #c1c1c1;
+	margin-right: 12px;
+}
+.xieyi .span1 img{
+	height: 9px;
+	width: 12px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+}
+.xieyi .span2{
+	font-size: 12px;
+	color: #454545;
+	display: inline-block;
+}
+.xieyi a{
+	color: #5CB531;
+}
+.register{
+	height: 50px;
+	width: 43.5%;
+	background: #f88d2e;
+	color: white;
+	border: none;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	margin-bottom: 300px;
+	letter-spacing: 2px;
+}
+/*注册第二步*/
+.p1,.p2{
+	font-size: 22px;
+	margin-bottom: 60px;
+	color: #474747;
+}
+.p2{
+	margin-top: 80px;
+}
+.registerNext label{
+	margin-right: 20px;
+	display: inline-block;
+	width:13% ;
+	text-align: right;
+	font-size: 16px;
+	color: #606060;
+	letter-spacing: 2px;
+}
+.registerNext label sup{
+	color: #ff6b6b;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+.basicInfo p{
+	margin-bottom: 40px;
+}
+.basicInfo input[type="text"]{
+	width: 35%;
+	height: 42px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+.providerInfo input[type="text"]{
+	width: 25%;
+	height: 42px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+.providerInfo p{
+	margin-bottom: 26px;
+}
+.compnayName input{
+	width:50% ;
+}
+.type select{
+	height: 30px;
+	width:40% ;
+}
+.upload input{
+	height: 40px;
+	width: 7%;
+	font-size: 20px;
+	color: white;
+	background: #b2b2b2;
+	border: none;
+	font-family: "微软雅黑";
+}
+.upload span{
+	color:#b2b2b2;
+	font-size: 18px;
+	margin-left: 4px;
+}
+.place select{
+	height: 22px;
+	width: 11%;
+}
+.company textarea{
+	height: 130px;
+	width: 66%;
+	overflow: auto;
+	font-size: 16px;
+	padding-left: 7px;
+	padding-top: 7px;
+	font-family: "微软雅黑";
+	letter-spacing: 2px;
+}
+.company label{
+	vertical-align: top;
+}
+.submitFile{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 15%;
+	height: 50px;
+	width: 43.5%;
+	background: #f88d2e;
+	color: white;
+	border: none;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	letter-spacing: 2px;
+}
+.sex img{
+	height: 18px;
+	width: 18px;
+	margin-right: 6px;
+}
+.sex .woman{
+	margin-left:12% ;
+}
+.zhizhao label{
+	vertical-align: top;
+}
+.zhizhao .sp{
+	display: block;
+	margin-left: 15.5%;
+	margin-top: 24px;
+}
+.otherfile img{
+	margin-right: 6px;
+}
