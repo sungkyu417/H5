@@ -8,6 +8,9 @@ body{
 	margin: 0 auto;
 }
 a:hover{text-decoration: none;}
+button{
+	cursor: pointer;
+}
 /*底部设置*/
 footer{
 	background: #EEEEEE;
@@ -52,7 +55,7 @@ header .header-text{
 }
 /*ssection部分*/
 section{
-	padding-left: 31.9%;
+	padding-left: 31%;
 	padding-top: 60px;
 }
 .registerBody label{
@@ -97,6 +100,7 @@ section{
 	width: 15px;
 	border: 1px solid #c1c1c1;
 	margin-right: 12px;
+	vertical-align: bottom;
 }
 .xieyi .span1 img{
 	height: 9px;
@@ -124,6 +128,9 @@ section{
 	letter-spacing: 2px;
 }
 /*注册第二步*/
+.registerNext{
+	padding-left: 22%;
+}
 .registerNext .p1,.registerNext .p2{
 	font-size: 22px;
 	margin-bottom: 60px;
@@ -135,7 +142,7 @@ section{
 .registerNext label{
 	margin-right: 20px;
 	display: inline-block;
-	width:13% ;
+	width:11% ;
 	text-align: right;
 	font-size: 16px;
 	color: #606060;
@@ -205,9 +212,9 @@ section{
 .submitFile{
 	margin-top: 80px;
 	margin-bottom: 80px;
-	margin-left: 15%;
+	margin-left: 13%;
 	height: 50px;
-	width: 43.5%;
+	width: 35%;
 	background: #f88d2e;
 	color: white;
 	border: none;
@@ -223,16 +230,31 @@ section{
 .sex .woman{
 	margin-left:12% ;
 }
-.zhizhao label{
-	vertical-align: top;
+.upload{
+	position: relative;
+	
+}
+.zhizhao{
+	margin-left: 12.5%;
+}
+.upload label{
+	position: absolute;
+	top: 10px;
+	left: 0;
+	margin-right: 0;
 }
 .zhizhao .sp{
-	display: block;
-	margin-left: 15.5%;
+	display: block;	
 	margin-top: 24px;
+	margin-bottom: 40px;
 }
 .otherfile img{
-	margin-right: 6px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+}
+/*注册下一步头部修改*/
+.header-next{
+	padding-left: 10%;
 }
 /*申请成功*/
 .registerSuccess{
